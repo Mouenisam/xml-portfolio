@@ -1,14 +1,60 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr"
+      prefix="
+        dc: http://purl.org/dc/terms/
+        foaf: http://xmlns.com/foaf/0.1/
+      ">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio de Mouenis Amira</title>
+  <meta charset="UTF-8">
+  <title property="dc:title">Portfolio de Mouenis Amira</title>
+
+  <meta property="dc:creator" content="Mouenis Amira">
+  <meta property="dc:language" content="fr">
+  <meta property="dc:subject" content="Portfolio, Web sémantique, RDFa, FOAF, Dublin Core">
+  <meta property="dc:description" content="Portfolio de Mouenis Amira avec annotations RDFa.">
 </head>
-<body>
-    <h1>Portfolio de Mouenis Amira</h1>
 
-    <p>Bonjour, vous vous trouvez sur le portfolio de Mouenis Amira.</p>
+<body typeof="foaf:Document"
+      about="https://mouenisam.github.io/xml-portfolio/">
 
+  <h1 property="dc:title">Portfolio de Mouenis Amira</h1>
+
+  <section typeof="foaf:Person"
+           about="https://mouenisam.github.io/xml-portfolio/#mouenis">
+
+    <h2 property="foaf:name">Mouenis Amira</h2>
+
+    <p>
+      Étudiant en informatique à Sup Galilée.
     </p>
+
+    <p>
+      Email :
+      <a property="foaf:mbox" href="mailto:mouenisamira@gmail.com">
+        mouenisamira@gmail.com
+      </a>
+    </p>
+      
+    <p>
+  Téléphone :
+  <a property="foaf:phone" href="tel:+33123456789">
+    +33 1 23 45 67 89
+  </a>
+</p>
+    <p>
+      Page personnelle :
+      <a property="foaf:homepage" href="https://mouenisam.github.io/xml-portfolio/">
+        https://mouenisam.github.io/xml-portfolio/
+      </a>
+    </p>
+
+    <p>
+      Sujet :
+      <span property="dc:subject">Web sémantique</span>
+    </p>
+
+  </section>
+
 </body>
 </html>
