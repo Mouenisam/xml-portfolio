@@ -1,54 +1,55 @@
-# Portfolio multilingue + RDFa — version statique (GitHub Pages)
+# Portfolio multilingue avec annotations RDFa
 
-Portfolio **trilingue FR / EN / AR** 100 % statique (HTML + JS + `translations.json`),
-déployable sur **GitHub Pages**, avec un thème « données liées / graphe RDF » et la
-page **annotée en RDFa** (FOAF + Dublin Core) pour le TP d'indexation sémantique.
+Ce dépôt contient mon portfolio réalisé dans le cadre du cours de Web sémantique.
 
-## Ce qui est annoté en RDFa
-- **Préfixes** déclarés sur `<html prefix="…">` : `dc:` (Dublin Core elements 1.1),
-  `foaf:` (FOAF), `schema:` (schema.org).
-- **Document → Dublin Core** (`<head>`) : `dc:title`, `dc:creator`, `dc:description`,
-  `dc:language`, `dc:publisher`, `dc:subject`, `dc:date`.
-- **Personne → FOAF** (hero, `typeof="foaf:Person" about="#me"`) : `foaf:name`,
-  `foaf:givenName`, `foaf:familyName`, `foaf:mbox`, `foaf:homepage`,
-  `foaf:schoolHomepage`, `foaf:account` (LinkedIn + GitHub), `foaf:topic_interest`
-  (→ DBpedia « Semantic Web »), `schema:jobTitle`, `schema:knowsLanguage`.
-- **Adresse → schema.org** (contact) : `schema:PostalAddress` (locality / region / country).
-- Vérifié avec le moteur **W3C pyRdfa** : 40 triplets extraits (FOAF + DC + schema.org).
+Le site est publié avec GitHub Pages et présente mon profil, mon parcours, mes compétences, mes expériences, ainsi qu'une section dédiée aux travaux et notions de Web sémantique.
 
-## Outils (section « Outils » du site)
-- OpenLink Structured Data Sniffer (extension Firefox)
-- Données structurées — documentation Google
-- Validateur RDFa du W3C (pyRdfa)
+## URL du site
 
-## Fichiers
-```
-index.html            page RDFa (FOAF + DC), microdata/JSON-LD, hreflang, OG
-translations.json     contenu (id × langue) + données perso + IDs vidéo
-assets/js/boot.js     détecte la langue avant le rendu (pose lang/dir)
-assets/js/main.js     traduit, met à jour méta DC/OG/JSON-LD, vidéo, change de langue
-assets/css/style.css  thème « graphe RDF » + RTL
-```
+https://mouenisam.github.io/xml-portfolio/
 
-## Détection de langue
-`?lang=fr|en|ar` → `localStorage` → `navigator.languages` → défaut (`fr`).
+## Objectifs du projet
 
-## Vérifier les triplets RDFa
-- En ligne : coller l'URL du site dans le validateur W3C
-  https://www.w3.org/2012/pyRdfa/Validator.html
-- Dans Firefox : extension OpenLink Structured Data Sniffer.
+L'objectif du projet est de créer un portfolio multilingue et d'améliorer son indexation sémantique grâce à des annotations RDFa.
 
-## Déployer sur GitHub Pages
-1. Pousser les fichiers à la racine d'un dépôt.
-2. Settings → Pages → Deploy from a branch → `main` / `(root)`.
-3. URL : `https://Mouenisam.github.io/NOM-DU-DEPOT/`.
+Le portfolio met en valeur :
 
-## Tester en local (ne pas double-cliquer index.html : fetch bloqué en file://)
-```bash
-cd portfolio-github
-python3 -m http.server 8000
-# http://localhost:8000/  puis ?lang=en  et  ?lang=ar
-```
+- mon CV ;
+- mes compétences techniques ;
+- mon parcours académique et professionnel ;
+- mes travaux liés au Web sémantique ;
+- des métadonnées exploitables par des agents logiciels.
 
-## À refaire avant le rendu
-- Remplacer les 3 vidéos placeholder (`video.*`) par **ta** vidéo (consigne du sujet).
+## Langues disponibles
+
+Le site est disponible en trois langues :
+
+- français ;
+- anglais ;
+- arabe.
+
+L'arabe est utilisé comme langue en alphabet non latin et l'affichage droite-gauche est géré dans le site.
+
+## Technologies utilisées
+
+Le projet utilise :
+
+- HTML5 ;
+- CSS3 ;
+- JavaScript ;
+- JSON ;
+- RDFa ;
+- Dublin Core ;
+- FOAF ;
+- Schema.org.
+
+Le fichier `translations.json` contient les textes du site dans les différentes langues.
+
+## Annotations sémantiques RDFa
+
+La page principale contient des annotations RDFa afin de rendre certaines informations compréhensibles par des machines.
+
+Les espaces de noms utilisés sont notamment :
+
+```html
+prefix="dc: http://purl.org/dc/elements/1.1/ foaf: http://xmlns.com/foaf/0.1/ schema: http://schema.org/"
