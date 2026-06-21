@@ -28,7 +28,6 @@ translations.json     contenu (id × langue) + données perso + IDs vidéo
 assets/js/boot.js     détecte la langue avant le rendu (pose lang/dir)
 assets/js/main.js     traduit, met à jour méta DC/OG/JSON-LD, vidéo, change de langue
 assets/css/style.css  thème « graphe RDF » + RTL
-.nojekyll
 ```
 
 ## Détection de langue
