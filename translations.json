@@ -1,0 +1,475 @@
+{
+  "site": {
+    "languages": [
+      "fr",
+      "en",
+      "ar"
+    ],
+    "default": "fr",
+    "dir": {
+      "fr": "ltr",
+      "en": "ltr",
+      "ar": "rtl"
+    },
+    "label": {
+      "fr": "FR",
+      "en": "EN",
+      "ar": "ع"
+    },
+    "name": {
+      "fr": "Français",
+      "en": "English",
+      "ar": "العربية"
+    }
+  },
+  "person": {
+    "name": "Mouenis Amira",
+    "email": "mouenisamira@gmail.com",
+    "email_school": "mouenis.amira@edu.univ-paris13.fr",
+    "linkedin": "https://www.linkedin.com/in/mouenis-amira/",
+    "github": "https://github.com/Mouenisam",
+    "locality": {
+      "fr": "Région parisienne, France",
+      "en": "Paris area, France",
+      "ar": "منطقة باريس، فرنسا"
+    },
+    "school_homepage": "https://www.sup-galilee.univ-paris13.fr/"
+  },
+  "video": {
+    "fr": "CHpZCYH4cOM",
+    "en": "1JblVElt5K0",
+    "ar": "up8WkRzbnxU"
+  },
+  "content": {
+    "meta_title": {
+      "fr": "Mouenis Amira — Ingénieur Performance & Observabilité",
+      "en": "Mouenis Amira — Performance & Observability Engineer",
+      "ar": "مونيس أميرة — مهندس الأداء وقابلية الملاحظة"
+    },
+    "meta_description": {
+      "fr": "Portfolio de Mouenis Amira : ingénieur test de performance et observabilité, étudiant ingénieur en informatique à Sup Galilée.",
+      "en": "Portfolio of Mouenis Amira: performance testing and observability engineer, computer-science engineering student at Sup Galilée.",
+      "ar": "حافظة أعمال مونيس أميرة: مهندس اختبار الأداء وقابلية الملاحظة، طالب هندسة معلوماتية في سوب غاليلي."
+    },
+    "tagline": {
+      "fr": "Test de performance & observabilité",
+      "en": "Performance testing & observability",
+      "ar": "اختبار الأداء وقابلية الملاحظة"
+    },
+    "role": {
+      "fr": "Ingénieur Performance & Observabilité en apprentissage",
+      "en": "Performance & Observability Engineer (apprenticeship)",
+      "ar": "مهندس الأداء وقابلية الملاحظة (تدريب مهني)"
+    },
+    "hero_intro": {
+      "fr": "Je mesure ce que les systèmes font vraiment sous charge, et je rends ce comportement lisible. Étudiant ingénieur en informatique à Sup Galilée, je travaille en apprentissage sur la performance et l'observabilité d'applications en production.",
+      "en": "I measure what systems actually do under load, and make that behaviour readable. A computer-science engineering student at Sup Galilée, I work on the performance and observability of production applications through my apprenticeship.",
+      "ar": "أقيس ما تفعله الأنظمة فعليًا تحت الحِمل، وأجعل هذا السلوك واضحًا. أنا طالب هندسة معلوماتية في سوب غاليلي، أعمل ضمن تدريبي المهني على أداء التطبيقات في بيئة الإنتاج وقابلية ملاحظتها."
+    },
+    "nav_about": {
+      "fr": "Profil",
+      "en": "About",
+      "ar": "نبذة"
+    },
+    "nav_experience": {
+      "fr": "Expérience",
+      "en": "Experience",
+      "ar": "الخبرة"
+    },
+    "nav_education": {
+      "fr": "Formation",
+      "en": "Education",
+      "ar": "التكوين"
+    },
+    "nav_skills": {
+      "fr": "Compétences",
+      "en": "Skills",
+      "ar": "المهارات"
+    },
+    "nav_projects": {
+      "fr": "Web sémantique",
+      "en": "Semantic web",
+      "ar": "الويب الدلالي"
+    },
+    "nav_video": {
+      "fr": "Vidéo",
+      "en": "Video",
+      "ar": "الفيديو"
+    },
+    "nav_contact": {
+      "fr": "Contact",
+      "en": "Contact",
+      "ar": "اتصال"
+    },
+    "about_eyebrow": {
+      "fr": "Profil",
+      "en": "About",
+      "ar": "نبذة"
+    },
+    "about_heading": {
+      "fr": "Entre la charge et le tableau de bord",
+      "en": "Between the load and the dashboard",
+      "ar": "بين الحِمل ولوحة المتابعة"
+    },
+    "about_p1": {
+      "fr": "Je suis en cycle ingénieur informatique à Sup Galilée (Université Sorbonne Paris Nord), en apprentissage chez WAPSI comme ingénieur test de performance et observabilité. Mon métier : provoquer la charge, l'instrumenter, puis expliquer ce qui se passe quand un système atteint ses limites.",
+      "en": "I am a computer-science engineering student at Sup Galilée (Université Sorbonne Paris Nord), doing an apprenticeship at WAPSI as a performance testing and observability engineer. My job: generate load, instrument it, then explain what happens when a system reaches its limits.",
+      "ar": "أنا طالب في سلك هندسة المعلوماتية بسوب غاليلي (جامعة السوربون باريس الشمالية)، أتابع تدريبًا مهنيًا في شركة WAPSI كمهندس لاختبار الأداء وقابلية الملاحظة. مهمتي: توليد الحِمل وقياسه، ثم تفسير ما يحدث حين يبلغ النظام حدوده."
+    },
+    "about_p2": {
+      "fr": "Mon parcours croise deux systèmes : une année préparatoire à HEC Alger, une première expérience au bureau d'études BET Bahloul à Constantine, puis l'école d'ingénieurs en France. Langue maternelle arabe, français C2, anglais C1.",
+      "en": "My path crosses two systems: a preparatory year at HEC Alger, early experience at the BET Bahloul engineering office in Constantine, then engineering school in France. Native Arabic, French C2, English C1.",
+      "ar": "يجمع مساري بين نظامين: سنة تحضيرية في المدرسة العليا للتجارة بالجزائر، وتجربة أولى في مكتب الدراسات BET بحلول بقسنطينة، ثم مدرسة الهندسة في فرنسا. اللغة الأم العربية، الفرنسية C2، الإنجليزية C1."
+    },
+    "exp_eyebrow": {
+      "fr": "Expérience",
+      "en": "Experience",
+      "ar": "الخبرة"
+    },
+    "exp_heading": {
+      "fr": "Parcours professionnel",
+      "en": "Work experience",
+      "ar": "المسار المهني"
+    },
+    "exp1_role": {
+      "fr": "Ingénieur Test de Performance & Observabilité",
+      "en": "Performance Testing & Observability Engineer",
+      "ar": "مهندس اختبار الأداء وقابلية الملاحظة"
+    },
+    "exp1_org": {
+      "fr": "WAPSI — Paris",
+      "en": "WAPSI — Paris",
+      "ar": "‏WAPSI — باريس"
+    },
+    "exp1_date": {
+      "fr": "Sept. 2024 — aujourd'hui",
+      "en": "Sep 2024 — present",
+      "ar": "سبتمبر 2024 — حتى الآن"
+    },
+    "exp1_desc": {
+      "fr": "Conception et exécution de scénarios de test de charge, stress et scalabilité (NeoLoad, LoadRunner). Observabilité temps réel avec Dynatrace (APM), analyse des métriques, identification des goulots et recommandations. Tableaux de bord et rapports, scripting Java/Python, intégration CI/CD (Jenkins, Docker, Kubernetes), Git/GitLab.",
+      "en": "Design and execution of load, stress and scalability test scenarios (NeoLoad, LoadRunner). Real-time observability with Dynatrace (APM), metrics analysis, bottleneck identification and recommendations. Dashboards and reports, Java/Python scripting, CI/CD integration (Jenkins, Docker, Kubernetes), Git/GitLab.",
+      "ar": "تصميم وتنفيذ سيناريوهات اختبار الحِمل والإجهاد وقابلية التوسّع (NeoLoad وLoadRunner). مراقبة لحظية مع Dynatrace (APM)، وتحليل المقاييس، وتحديد نقاط الاختناق وتقديم التوصيات. لوحات متابعة وتقارير، وبرمجة بلغتي Java/Python، وتكامل مع CI/CD (Jenkins، Docker، Kubernetes)، وGit/GitLab."
+    },
+    "exp2_role": {
+      "fr": "Développeur logiciel",
+      "en": "Software Engineer",
+      "ar": "مطوّر برمجيات"
+    },
+    "exp2_org": {
+      "fr": "BET Bahloul — Constantine, Algérie",
+      "en": "BET Bahloul — Constantine, Algeria",
+      "ar": "BET بحلول — قسنطينة، الجزائر"
+    },
+    "exp2_date": {
+      "fr": "Juin — Août 2023",
+      "en": "Jun — Aug 2023",
+      "ar": "يونيو — أغسطس 2023"
+    },
+    "exp2_desc": {
+      "fr": "Traitement et gestion de données, développement de composants et scripts, activités liées aux bases de données (organisation, requêtes, mises à jour), tests des fonctionnalités et documentation technique des workflows de données.",
+      "en": "Data processing and management, development of software components and scripts, database-related work (organisation, queries, updates), feature testing and technical documentation of data workflows.",
+      "ar": "معالجة البيانات وإدارتها، وتطوير مكوّنات برمجية ونصوص، وأعمال متعلّقة بقواعد البيانات (تنظيم، استعلامات، تحديثات)، واختبار الوظائف، وتوثيق تقني لمسارات معالجة البيانات."
+    },
+    "edu_eyebrow": {
+      "fr": "Formation",
+      "en": "Education",
+      "ar": "التكوين"
+    },
+    "edu_heading": {
+      "fr": "Diplômes & études",
+      "en": "Degrees & studies",
+      "ar": "الشهادات والدراسة"
+    },
+    "edu1_title": {
+      "fr": "Diplôme d'ingénieur en informatique",
+      "en": "Engineering Master in Computer Science",
+      "ar": "دبلوم مهندس في المعلوماتية"
+    },
+    "edu1_org": {
+      "fr": "Sup Galilée — Université Sorbonne Paris Nord",
+      "en": "Sup Galilée — Université Sorbonne Paris Nord",
+      "ar": "سوب غاليلي — جامعة السوربون باريس الشمالية"
+    },
+    "edu1_date": {
+      "fr": "2024 — aujourd'hui",
+      "en": "2024 — present",
+      "ar": "2024 — حتى الآن"
+    },
+    "edu2_title": {
+      "fr": "Licence en informatique",
+      "en": "Bachelor's in Computer Science",
+      "ar": "إجازة في المعلوماتية"
+    },
+    "edu2_org": {
+      "fr": "Institut Galilée — Université Sorbonne Paris Nord",
+      "en": "Institut Galilée — Université Sorbonne Paris Nord",
+      "ar": "معهد غاليلي — جامعة السوربون باريس الشمالية"
+    },
+    "edu2_date": {
+      "fr": "2022 — 2024",
+      "en": "2022 — 2024",
+      "ar": "2022 — 2024"
+    },
+    "edu3_title": {
+      "fr": "Classe préparatoire (économie & gestion)",
+      "en": "Preparatory programme (economics & business)",
+      "ar": "السنة التحضيرية (اقتصاد وتسيير)"
+    },
+    "edu3_org": {
+      "fr": "HEC Alger — Algérie",
+      "en": "HEC Alger — Algeria",
+      "ar": "المدرسة العليا للتجارة بالجزائر"
+    },
+    "edu3_date": {
+      "fr": "2021 — 2022",
+      "en": "2021 — 2022",
+      "ar": "2021 — 2022"
+    },
+    "edu4_title": {
+      "fr": "Baccalauréat scientifique (mention très bien)",
+      "en": "Scientific Baccalauréat (high honors)",
+      "ar": "بكالوريا علمية (بتقدير ممتاز)"
+    },
+    "edu4_org": {
+      "fr": "Lycée El Andalous — Constantine",
+      "en": "Lycée El Andalous — Constantine",
+      "ar": "ثانوية الأندلس — قسنطينة"
+    },
+    "edu4_date": {
+      "fr": "2021",
+      "en": "2021",
+      "ar": "2021"
+    },
+    "skills_eyebrow": {
+      "fr": "Compétences",
+      "en": "Skills",
+      "ar": "المهارات"
+    },
+    "skills_heading": {
+      "fr": "Outils & domaines",
+      "en": "Tools & domains",
+      "ar": "الأدوات والمجالات"
+    },
+    "skills_cat_perf": {
+      "fr": "Test de performance",
+      "en": "Performance testing",
+      "ar": "اختبار الأداء"
+    },
+    "skills_cat_obs": {
+      "fr": "Observabilité",
+      "en": "Observability",
+      "ar": "قابلية الملاحظة"
+    },
+    "skills_cat_devops": {
+      "fr": "CI/CD & conteneurs",
+      "en": "CI/CD & containers",
+      "ar": "التكامل المستمر والحاويات"
+    },
+    "skills_cat_dev": {
+      "fr": "Développement",
+      "en": "Development",
+      "ar": "التطوير"
+    },
+    "skills_cat_web": {
+      "fr": "Web sémantique",
+      "en": "Semantic web",
+      "ar": "الويب الدلالي"
+    },
+    "projects_eyebrow": {
+      "fr": "Web sémantique",
+      "en": "Semantic web",
+      "ar": "الويب الدلالي"
+    },
+    "projects_heading": {
+      "fr": "TPs de web sémantique & projets",
+      "en": "Semantic web labs & projects",
+      "ar": "أعمال الويب الدلالي والمشاريع"
+    },
+    "proj1_title": {
+      "fr": "Portfolio multilingue (schema.org / hreflang)",
+      "en": "Multilingual portfolio (schema.org / hreflang)",
+      "ar": "حافظة أعمال متعددة اللغات (schema.org / hreflang)"
+    },
+    "proj1_desc": {
+      "fr": "Ce site : trois langues (FR/EN/AR, dont l'arabe en RTL), détection de langue (paramètre d'URL, mémorisation, langues préférées du navigateur), métadonnées sémantiques schema.org, liens hreflang, et une vidéo qui dépend de la langue active. Contenu externalisé dans une source de données JSON indexée par (id, langue).",
+      "en": "This site: three languages (FR/EN/AR, Arabic in RTL), language detection (URL parameter, persistence, browser preferred languages), schema.org semantic metadata, hreflang links, and a video that depends on the active language. Content externalised in a JSON data source indexed by (id, language).",
+      "ar": "هذا الموقع: ثلاث لغات (الفرنسية/الإنجليزية/العربية، مع العربية من اليمين إلى اليسار)، وكشف اللغة (وسيط الرابط، الحفظ، اللغات المفضّلة للمتصفّح)، وبيانات وصفية دلالية schema.org، وروابط hreflang، وفيديو يتغيّر حسب اللغة النشطة. المحتوى مُخرَج إلى مصدر بيانات JSON مفهرَس حسب (المعرّف، اللغة)."
+    },
+    "proj2_title": {
+      "fr": "Modélisation RDF/RDFS — La Compagnie des Glaces",
+      "en": "RDF/RDFS modelling — La Compagnie des Glaces",
+      "ar": "نمذجة RDF/RDFS — سلسلة «شركة الجليد»"
+    },
+    "proj2_desc": {
+      "fr": "Modélisation de la série de Georges-Jean Arnaud : correction du schéma et des données, résolution des incohérences de préfixes, ajout des déclarations de types manquantes, remplacement des propriétés Dublin Core par un vocabulaire dédié cg:.",
+      "en": "Modelling Georges-Jean Arnaud's book series: fixing schema and data, resolving prefix inconsistencies, adding missing type declarations, replacing Dublin Core properties with a dedicated cg: vocabulary.",
+      "ar": "نمذجة سلسلة جورج-جان أرنو: تصحيح المخطط والبيانات، ومعالجة تضارب البادئات، وإضافة تصريحات الأنواع الناقصة، واستبدال خصائص Dublin Core بمفردات مخصّصة cg:."
+    },
+    "proj3_title": {
+      "fr": "Projet OLOC — optimisation combinatoire (Julia)",
+      "en": "OLOC project — combinatorial optimisation (Julia)",
+      "ar": "مشروع OLOC — التحسين التوافيقي (Julia)"
+    },
+    "proj3_desc": {
+      "fr": "Placement concurrentiel de magasins sur des communes françaises : résolution exacte (CPLEX), heuristique gloutonne et recherche locale itérée (ILS), avec comparaison des qualités de solution et des temps de calcul.",
+      "en": "Competitive shop placement across French communes: exact solving (CPLEX), greedy heuristic and iterated local search (ILS), comparing solution quality and runtime.",
+      "ar": "توزيع تنافسي للمتاجر على البلديات الفرنسية: حلّ دقيق (CPLEX)، وخوارزمية جشعة، وبحث محلي متكرر (ILS)، مع مقارنة جودة الحلول وأزمنة الحساب."
+    },
+    "video_eyebrow": {
+      "fr": "Vidéo",
+      "en": "Video",
+      "ar": "الفيديو"
+    },
+    "video_heading": {
+      "fr": "Présentation en vidéo",
+      "en": "Video introduction",
+      "ar": "تقديم بالفيديو"
+    },
+    "video_caption": {
+      "fr": "La version affichée correspond à la langue active du site.",
+      "en": "The version shown matches the site's active language.",
+      "ar": "النسخة المعروضة تطابق اللغة النشطة للموقع."
+    },
+    "lang_eyebrow": {
+      "fr": "Langues",
+      "en": "Languages",
+      "ar": "اللغات"
+    },
+    "lang_heading": {
+      "fr": "Langues parlées",
+      "en": "Spoken languages",
+      "ar": "اللغات المحكية"
+    },
+    "lang_ar": {
+      "fr": "Arabe — langue maternelle",
+      "en": "Arabic — native",
+      "ar": "العربية — اللغة الأم"
+    },
+    "lang_fr": {
+      "fr": "Français — C2",
+      "en": "French — C2",
+      "ar": "الفرنسية — C2"
+    },
+    "lang_en": {
+      "fr": "Anglais — C1",
+      "en": "English — C1",
+      "ar": "الإنجليزية — C1"
+    },
+    "contact_eyebrow": {
+      "fr": "Contact",
+      "en": "Contact",
+      "ar": "اتصال"
+    },
+    "contact_heading": {
+      "fr": "Travaillons ensemble",
+      "en": "Let's work together",
+      "ar": "لنعمل معًا"
+    },
+    "contact_email_label": {
+      "fr": "Écrire un e-mail",
+      "en": "Send an email",
+      "ar": "إرسال بريد إلكتروني"
+    },
+    "contact_linkedin_label": {
+      "fr": "LinkedIn",
+      "en": "LinkedIn",
+      "ar": "لينكدإن"
+    },
+    "contact_github_label": {
+      "fr": "GitHub",
+      "en": "GitHub",
+      "ar": "غيت‑هاب"
+    },
+    "footer_note": {
+      "fr": "Portfolio multilingue — HTML5 valide, trois langues dont l'arabe (RTL).",
+      "en": "Multilingual portfolio — valid HTML5, three languages including Arabic (RTL).",
+      "ar": "حافظة أعمال متعددة اللغات — HTML5 صالح، ثلاث لغات منها العربية (RTL)."
+    },
+    "skip_link": {
+      "fr": "Aller au contenu",
+      "en": "Skip to content",
+      "ar": "تخطّي إلى المحتوى"
+    },
+    "lang_switch_label": {
+      "fr": "Changer de langue",
+      "en": "Change language",
+      "ar": "تغيير اللغة"
+    },
+    "nav_semantic": {
+      "fr": "Web sémantique",
+      "en": "Semantic web",
+      "ar": "الويب الدلالي"
+    },
+    "sem_eyebrow": {
+      "fr": "Web sémantique",
+      "en": "Semantic web",
+      "ar": "الويب الدلالي"
+    },
+    "sem_heading": {
+      "fr": "Données liées & RDFa",
+      "en": "Linked data & RDFa",
+      "ar": "البيانات المترابطة وRDFa"
+    },
+    "sem_p1": {
+      "fr": "Au-delà de l'affichage, cette page est annotée en RDFa : ses informations — auteur, titre, description, profils — sont exposées comme des données structurées, lisibles par les machines et les moteurs de recherche.",
+      "en": "Beyond display, this page is annotated with RDFa: its information — author, title, description, profiles — is exposed as machine-readable structured data for search engines.",
+      "ar": "إلى جانب العرض، صُنِّفت هذه الصفحة بـ RDFa: تُعرَض معلوماتها — المؤلف، العنوان، الوصف، الحسابات — كبيانات منظَّمة يقرؤها الآلات ومحرّكات البحث."
+    },
+    "sem_p2": {
+      "fr": "L'annotation s'appuie sur deux vocabulaires de l'univers Linked Open Data : Dublin Core (dc:) pour les métadonnées du document, et FOAF (foaf:) pour décrire la personne. En TP, j'avais aussi modélisé la série « La Compagnie des Glaces » en RDF/RDFS, en corrigeant le schéma et en remplaçant Dublin Core par un vocabulaire dédié.",
+      "en": "The annotation uses two Linked Open Data vocabularies: Dublin Core (dc:) for document metadata, and FOAF (foaf:) to describe the person. In a lab, I also modelled the series “La Compagnie des Glaces” in RDF/RDFS, fixing the schema and replacing Dublin Core with a dedicated vocabulary.",
+      "ar": "يعتمد التوصيف على مفردتين من عالم البيانات المفتوحة المترابطة: Dublin Core (dc:) لبيانات الوثيقة، وFOAF (foaf:) لوصف الشخص. وفي أحد الأعمال التطبيقية، نمذجتُ أيضًا سلسلة «شركة الجليد» بـ RDF/RDFS، مع تصحيح المخطط واستبدال Dublin Core بمفردات مخصّصة."
+    },
+    "tools_eyebrow": {
+      "fr": "Outils",
+      "en": "Tools",
+      "ar": "أدوات"
+    },
+    "tools_heading": {
+      "fr": "Vérifier les données structurées",
+      "en": "Inspect the structured data",
+      "ar": "فحص البيانات المنظَّمة"
+    },
+    "tool_sniffer_label": {
+      "fr": "OpenLink Structured Data Sniffer",
+      "en": "OpenLink Structured Data Sniffer",
+      "ar": "OpenLink Structured Data Sniffer"
+    },
+    "tool_sniffer_desc": {
+      "fr": "Extension Firefox pour visualiser les annotations RDFa de la page.",
+      "en": "Firefox add-on to view the page's RDFa annotations.",
+      "ar": "إضافة فايرفوكس لعرض توصيفات RDFa في الصفحة."
+    },
+    "tool_google_label": {
+      "fr": "Données structurées (Google)",
+      "en": "Structured data (Google)",
+      "ar": "البيانات المنظَّمة (Google)"
+    },
+    "tool_google_desc": {
+      "fr": "Documentation pour aller plus loin sur l'indexation sémantique.",
+      "en": "Docs to go further with semantic indexing.",
+      "ar": "وثائق للتعمّق في الفهرسة الدلالية."
+    },
+    "tool_validator_label": {
+      "fr": "Validateur RDFa (W3C)",
+      "en": "RDFa validator (W3C)",
+      "ar": "مدقّق RDFa (W3C)"
+    },
+    "tool_validator_desc": {
+      "fr": "Extrait et vérifie les triplets RDFa de la page.",
+      "en": "Extracts and checks the page's RDFa triples.",
+      "ar": "يستخرج ويتحقّق من ثلاثيات RDFa في الصفحة."
+    },
+    "loc_label": {
+      "fr": "Localisation",
+      "en": "Location",
+      "ar": "الموقع"
+    },
+    "graph_caption": {
+      "fr": "Un aperçu des triplets RDFa décrivant cette personne.",
+      "en": "A glimpse of the RDFa triples describing this person.",
+      "ar": "لمحة عن ثلاثيات RDFa التي تصف هذا الشخص."
+    }
+  }
+}

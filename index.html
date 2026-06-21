@@ -1,60 +1,316 @@
 <!DOCTYPE html>
-<html lang="fr"
-      prefix="
-        dc: http://purl.org/dc/terms/
-        foaf: http://xmlns.com/foaf/0.1/
-      ">
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" dir="ltr"
+      prefix="dc: http://purl.org/dc/elements/1.1/ foaf: http://xmlns.com/foaf/0.1/ schema: http://schema.org/">
 <head>
-  <meta charset="UTF-8">
-  <title property="dc:title">Portfolio de Mouenis Amira</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="meta_title">Mouenis Amira — Ingénieur Performance &amp; Observabilité</title>
 
-  <meta property="dc:creator" content="Mouenis Amira">
-  <meta property="dc:language" content="fr">
-  <meta property="dc:subject" content="Portfolio, Web sémantique, RDFa, FOAF, Dublin Core">
-  <meta property="dc:description" content="Portfolio de Mouenis Amira avec annotations RDFa.">
+  <!-- Métadonnées du document en Dublin Core (RDFa) -->
+  <meta property="dc:title" id="dc-title" content="Mouenis Amira — Ingénieur Performance &amp; Observabilité" />
+  <meta property="dc:creator" content="Mouenis Amira" />
+  <meta property="dc:description" id="dc-desc" content="Portfolio multilingue d'un ingénieur test de performance et observabilité." />
+  <meta property="dc:publisher" content="Sup Galilée — Université Sorbonne Paris Nord" />
+  <meta property="dc:language" id="dc-language" content="fr" />
+  <meta property="dc:subject" content="Web sémantique" />
+  <meta property="dc:subject" content="RDFa" />
+  <meta property="dc:subject" content="FOAF" />
+  <meta property="dc:date" content="2025" />
+
+  <meta name="description" id="meta-desc" data-i18n-attr="content:meta_description"
+        content="Portfolio de Mouenis Amira : ingénieur test de performance et observabilité, étudiant ingénieur en informatique à Sup Galilée." />
+  <meta name="author" content="Mouenis Amira" />
+  <meta name="theme-color" content="#0a1722" />
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAzMiAzMic+PHJlY3Qgd2lkdGg9JzMyJyBoZWlnaHQ9JzMyJyByeD0nNycgZmlsbD0nIzBhMTcyMicvPjxsaW5lIHgxPScxMCcgeTE9JzIyJyB4Mj0nMjInIHkyPScxMCcgc3Ryb2tlPScjZTliMTVlJyBzdHJva2Utd2lkdGg9JzInLz48Y2lyY2xlIGN4PScxMCcgY3k9JzIyJyByPSc0JyBmaWxsPScjNGZkMWM1Jy8+PGNpcmNsZSBjeD0nMjInIGN5PScxMCcgcj0nMycgZmlsbD0nIzRmZDFjNScvPjwvc3ZnPg==" />
+  <link rel="canonical" id="canonical" href="?lang=fr" />
+
+  <!-- Versions linguistiques (référencement) -->
+  <link rel="alternate" hreflang="fr" href="?lang=fr" />
+  <link rel="alternate" hreflang="en" href="?lang=en" />
+  <link rel="alternate" hreflang="ar" href="?lang=ar" />
+  <link rel="alternate" hreflang="x-default" href="?lang=fr" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" id="og-title" content="Mouenis Amira — Ingénieur Performance &amp; Observabilité" />
+  <meta property="og:description" id="og-desc" content="Ingénieur test de performance et observabilité." />
+  <meta property="og:locale" id="og-locale" content="fr_FR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_AR" />
+
+  <script type="application/ld+json" id="ld-person">{}</script>
+
+  <link rel="preconnect" href="https://www.youtube-nocookie.com" />
+  <link rel="preconnect" href="https://i.ytimg.com" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/boot.js"></script>
 </head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip_link">Aller au contenu</a>
 
-<body typeof="foaf:Document"
-      about="https://mouenisam.github.io/xml-portfolio/">
+  <div id="lang-switch" class="lang-switch" role="group"
+       data-i18n-attr="aria-label:lang_switch_label" aria-label="Changer de langue">
+    <button type="button" class="lang-btn" data-lang="fr" lang="fr">FR</button>
+    <button type="button" class="lang-btn" data-lang="en" lang="en">EN</button>
+    <button type="button" class="lang-btn" data-lang="ar" lang="ar">ع</button>
+  </div>
 
-  <h1 property="dc:title">Portfolio de Mouenis Amira</h1>
+  <header class="site-header">
+    <a class="brand" href="?lang=fr" id="brand-home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22"><line x1="6" y1="18" x2="18" y2="6" stroke="#e9b15e" stroke-width="2"/><circle cx="6" cy="18" r="3.4" fill="#4fd1c5"/><circle cx="18" cy="6" r="2.6" fill="#4fd1c5"/></svg>
+      </span>
+      <span class="brand-name">Mouenis Amira</span>
+    </a>
+    <nav class="site-nav" aria-label="Navigation">
+      <a href="#about" data-i18n="nav_about">Profil</a>
+      <a href="#experience" data-i18n="nav_experience">Expérience</a>
+      <a href="#education" data-i18n="nav_education">Formation</a>
+      <a href="#skills" data-i18n="nav_skills">Compétences</a>
+      <a href="#semantic" data-i18n="nav_semantic">Web sémantique</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+  </header>
 
-  <section typeof="foaf:Person"
-           about="https://mouenisam.github.io/xml-portfolio/#mouenis">
+  <main id="main">
 
-    <h2 property="foaf:name">Mouenis Amira</h2>
+    <!-- HERO : personne décrite en FOAF (RDFa) -->
+    <section class="hero" typeof="foaf:Person" about="#me">
+      <meta property="foaf:givenName" content="Mouenis" />
+      <meta property="foaf:familyName" content="Amira" />
+      <link property="foaf:mbox" href="mailto:mouenisamira@gmail.com" />
+      <link property="foaf:homepage" href="./" />
+      <link property="foaf:schoolHomepage" href="https://www.sup-galilee.univ-paris13.fr/" />
+      <link property="foaf:account" id="meta-linkedin" href="https://www.linkedin.com/in/mouenis-amira/" />
+      <link property="foaf:account" id="meta-github" href="https://github.com/Mouenisam" />
+      <link property="foaf:topic_interest" href="http://dbpedia.org/resource/Semantic_Web" />
+      <meta property="schema:knowsLanguage" content="ar" />
+      <meta property="schema:knowsLanguage" content="fr" />
+      <meta property="schema:knowsLanguage" content="en" />
 
-    <p>
-      Étudiant en informatique à Sup Galilée.
-    </p>
+      <div class="hero-text">
+        <p class="eyebrow" data-i18n="tagline">Test de performance &amp; observabilité</p>
+        <h1 class="hero-title"><span property="foaf:name">Mouenis Amira</span></h1>
+        <p class="hero-role" property="schema:jobTitle" data-i18n="role">Ingénieur Performance &amp; Observabilité en apprentissage</p>
+        <p class="hero-intro" property="dc:description" data-i18n="hero_intro">Je mesure ce que les systèmes font vraiment sous charge, et je rends ce comportement lisible. Étudiant ingénieur en informatique à Sup Galilée, je travaille en apprentissage sur la performance et l'observabilité d'applications en production.</p>
+      </div>
 
-    <p>
-      Email :
-      <a property="foaf:mbox" href="mailto:mouenisamira@gmail.com">
-        mouenisamira@gmail.com
-      </a>
-    </p>
-      
-    <p>
-  Téléphone :
-  <a property="foaf:phone" href="tel:+33123456789">
-    +33 1 23 45 67 89
-  </a>
-</p>
-    <p>
-      Page personnelle :
-      <a property="foaf:homepage" href="https://mouenisam.github.io/xml-portfolio/">
-        https://mouenisam.github.io/xml-portfolio/
-      </a>
-    </p>
+      <figure class="rdf-graph">
+        <svg viewBox="0 0 720 380" role="img" aria-label="RDF graph">
+          <g class="edges">
+            <line x1="360" y1="190" x2="150" y2="80"/>
+            <line x1="360" y1="190" x2="575" y2="80"/>
+            <line x1="360" y1="190" x2="120" y2="300"/>
+            <line x1="360" y1="190" x2="600" y2="300"/>
+            <line x1="360" y1="190" x2="360" y2="330"/>
+          </g>
+          <g class="edge-labels">
+            <text x="245" y="128">foaf:name</text>
+            <text x="455" y="128">foaf:mbox</text>
+            <text x="205" y="258">dc:creator</text>
+            <text x="470" y="258">foaf:account</text>
+            <text x="372" y="270">foaf:topic_interest</text>
+          </g>
+          <g class="nodes">
+            <circle class="node-obj" cx="150" cy="80" r="9"/>
+            <circle class="node-obj" cx="575" cy="80" r="9"/>
+            <circle class="node-obj" cx="120" cy="300" r="9"/>
+            <circle class="node-obj" cx="600" cy="300" r="9"/>
+            <circle class="node-obj" cx="360" cy="330" r="9"/>
+            <circle class="node-subject" cx="360" cy="190" r="20"/>
+          </g>
+          <text class="node-center" x="360" y="195" text-anchor="middle">foaf:Person</text>
+          <text class="node-name" x="150" y="62" text-anchor="middle">"Mouenis Amira"</text>
+          <text class="node-name" x="575" y="62" text-anchor="middle">mailto:…</text>
+          <text class="node-name" x="120" y="328" text-anchor="middle">dc:creator</text>
+          <text class="node-name" x="600" y="328" text-anchor="middle">github.com</text>
+          <text class="node-name" x="360" y="358" text-anchor="middle">Semantic Web</text>
+        </svg>
+        <figcaption class="caption" data-i18n="graph_caption">Un aperçu des triplets RDFa décrivant cette personne.</figcaption>
+      </figure>
+    </section>
 
-    <p>
-      Sujet :
-      <span property="dc:subject">Web sémantique</span>
-    </p>
+    <!-- PROFIL -->
+    <section id="about" class="section">
+      <p class="eyebrow" data-i18n="about_eyebrow">Profil</p>
+      <h2 class="section-title" data-i18n="about_heading">Entre la charge et le tableau de bord</h2>
+      <div class="prose">
+        <p data-i18n="about_p1">Je suis en cycle ingénieur informatique à Sup Galilée (Université Sorbonne Paris Nord), en apprentissage chez WAPSI comme ingénieur test de performance et observabilité. Mon métier : provoquer la charge, l'instrumenter, puis expliquer ce qui se passe quand un système atteint ses limites.</p>
+        <p data-i18n="about_p2">Mon parcours croise deux systèmes : une année préparatoire à HEC Alger, une première expérience au bureau d'études BET Bahloul à Constantine, puis l'école d'ingénieurs en France. Langue maternelle arabe, français C2, anglais C1.</p>
+      </div>
+    </section>
 
-  </section>
+    <!-- EXPÉRIENCE -->
+    <section id="experience" class="section">
+      <p class="eyebrow" data-i18n="exp_eyebrow">Expérience</p>
+      <h2 class="section-title" data-i18n="exp_heading">Parcours professionnel</h2>
+      <div class="timeline">
+        <article class="entry">
+          <p class="entry-date" data-i18n="exp1_date">Sept. 2024 — aujourd'hui</p>
+          <h3 class="entry-title" data-i18n="exp1_role">Ingénieur Test de Performance &amp; Observabilité</h3>
+          <p class="entry-org" data-i18n="exp1_org">WAPSI — Paris</p>
+          <p class="entry-desc" data-i18n="exp1_desc">Conception et exécution de scénarios de test de charge, stress et scalabilité (NeoLoad, LoadRunner). Observabilité temps réel avec Dynatrace (APM), analyse des métriques, identification des goulots et recommandations. Tableaux de bord et rapports, scripting Java/Python, intégration CI/CD (Jenkins, Docker, Kubernetes), Git/GitLab.</p>
+        </article>
+        <article class="entry">
+          <p class="entry-date" data-i18n="exp2_date">Juin — Août 2023</p>
+          <h3 class="entry-title" data-i18n="exp2_role">Développeur logiciel</h3>
+          <p class="entry-org" data-i18n="exp2_org">BET Bahloul — Constantine, Algérie</p>
+          <p class="entry-desc" data-i18n="exp2_desc">Traitement et gestion de données, développement de composants et scripts, activités liées aux bases de données (organisation, requêtes, mises à jour), tests des fonctionnalités et documentation technique des workflows de données.</p>
+        </article>
+      </div>
+    </section>
 
+    <!-- FORMATION -->
+    <section id="education" class="section">
+      <p class="eyebrow" data-i18n="edu_eyebrow">Formation</p>
+      <h2 class="section-title" data-i18n="edu_heading">Diplômes &amp; études</h2>
+      <div class="timeline">
+        <article class="entry">
+          <p class="entry-date" data-i18n="edu1_date">2024 — aujourd'hui</p>
+          <h3 class="entry-title" data-i18n="edu1_title">Diplôme d'ingénieur en informatique</h3>
+          <p class="entry-org" data-i18n="edu1_org">Sup Galilée — Université Sorbonne Paris Nord</p>
+        </article>
+        <article class="entry">
+          <p class="entry-date" data-i18n="edu2_date">2022 — 2024</p>
+          <h3 class="entry-title" data-i18n="edu2_title">Licence en informatique</h3>
+          <p class="entry-org" data-i18n="edu2_org">Institut Galilée — Université Sorbonne Paris Nord</p>
+        </article>
+        <article class="entry">
+          <p class="entry-date" data-i18n="edu3_date">2021 — 2022</p>
+          <h3 class="entry-title" data-i18n="edu3_title">Classe préparatoire (économie &amp; gestion)</h3>
+          <p class="entry-org" data-i18n="edu3_org">HEC Alger — Algérie</p>
+        </article>
+        <article class="entry">
+          <p class="entry-date" data-i18n="edu4_date">2021</p>
+          <h3 class="entry-title" data-i18n="edu4_title">Baccalauréat scientifique (mention très bien)</h3>
+          <p class="entry-org" data-i18n="edu4_org">Lycée El Andalous — Constantine</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section id="skills" class="section">
+      <p class="eyebrow" data-i18n="skills_eyebrow">Compétences</p>
+      <h2 class="section-title" data-i18n="skills_heading">Outils &amp; domaines</h2>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <h3 data-i18n="skills_cat_perf">Test de performance</h3>
+          <ul><li>NeoLoad</li><li>LoadRunner</li><li>JMeter</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills_cat_obs">Observabilité</h3>
+          <ul><li>Dynatrace</li><li>APM</li><li>Grafana</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills_cat_devops">CI/CD &amp; conteneurs</h3>
+          <ul><li>Jenkins</li><li>Docker</li><li>Kubernetes</li><li>Git / GitLab</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills_cat_dev">Développement</h3>
+          <ul><li>Java</li><li>Python</li><li>C / C++</li><li>JavaScript</li><li>React</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills_cat_web">Web sémantique</h3>
+          <ul><li>RDF / RDFS</li><li>RDFa</li><li>FOAF / DC</li><li>schema.org</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEB SÉMANTIQUE : récit + projets + outils -->
+    <section id="semantic" class="section">
+      <p class="eyebrow" data-i18n="sem_eyebrow">Web sémantique</p>
+      <h2 class="section-title" data-i18n="sem_heading">Données liées &amp; RDFa</h2>
+      <div class="prose">
+        <p data-i18n="sem_p1">Au-delà de l'affichage, cette page est annotée en RDFa : ses informations — auteur, titre, description, profils — sont exposées comme des données structurées, lisibles par les machines et les moteurs de recherche.</p>
+        <p data-i18n="sem_p2">L'annotation s'appuie sur deux vocabulaires de l'univers Linked Open Data : Dublin Core (dc:) pour les métadonnées du document, et FOAF (foaf:) pour décrire la personne. En TP, j'avais aussi modélisé la série « La Compagnie des Glaces » en RDF/RDFS, en corrigeant le schéma et en remplaçant Dublin Core par un vocabulaire dédié.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project" about="#me" typeof="schema:CreativeWork">
+          <h3 property="dc:title" data-i18n="proj1_title">Portfolio multilingue (RDFa : FOAF + DC)</h3>
+          <p property="dc:description" data-i18n="proj1_desc">Ce site : trois langues (FR/EN/AR, dont l'arabe en RTL), détection de langue, métadonnées sémantiques, liens hreflang, vidéo selon la langue, et annotations RDFa (FOAF + Dublin Core).</p>
+        </article>
+        <article class="project">
+          <h3 data-i18n="proj2_title">Modélisation RDF/RDFS — La Compagnie des Glaces</h3>
+          <p data-i18n="proj2_desc">Modélisation de la série de Georges-Jean Arnaud : correction du schéma et des données, résolution des incohérences de préfixes, ajout des déclarations de types manquantes, remplacement des propriétés Dublin Core par un vocabulaire dédié cg:.</p>
+        </article>
+        <article class="project">
+          <h3 data-i18n="proj3_title">Projet OLOC — optimisation combinatoire (Julia)</h3>
+          <p data-i18n="proj3_desc">Placement concurrentiel de magasins sur des communes françaises : résolution exacte (CPLEX), heuristique gloutonne et recherche locale itérée (ILS), avec comparaison des qualités de solution et des temps de calcul.</p>
+        </article>
+      </div>
+
+      <!-- OUTILS -->
+      <div class="tools">
+        <p class="eyebrow" data-i18n="tools_eyebrow">Outils</p>
+        <h3 class="tools-title" data-i18n="tools_heading">Vérifier les données structurées</h3>
+        <div class="tool-list">
+          <a class="tool" href="https://addons.mozilla.org/en-US/firefox/addon/openlink-structured-data-sniff/" rel="noopener">
+            <span class="tool-name" data-i18n="tool_sniffer_label">OpenLink Structured Data Sniffer</span>
+            <span class="tool-desc" data-i18n="tool_sniffer_desc">Extension Firefox pour visualiser les annotations RDFa de la page.</span>
+          </a>
+          <a class="tool" href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=fr" rel="noopener">
+            <span class="tool-name" data-i18n="tool_google_label">Données structurées (Google)</span>
+            <span class="tool-desc" data-i18n="tool_google_desc">Documentation pour aller plus loin sur l'indexation sémantique.</span>
+          </a>
+          <a class="tool" href="https://www.w3.org/2012/pyRdfa/Validator.html" rel="noopener">
+            <span class="tool-name" data-i18n="tool_validator_label">Validateur RDFa (W3C)</span>
+            <span class="tool-desc" data-i18n="tool_validator_desc">Extrait et vérifie les triplets RDFa de la page.</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDÉO -->
+    <section id="video" class="section">
+      <p class="eyebrow" data-i18n="video_eyebrow">Vidéo</p>
+      <h2 class="section-title" data-i18n="video_heading">Présentation en vidéo</h2>
+      <div class="video-frame" id="video-frame">
+        <button type="button" class="video-facade" id="video-facade"
+                data-i18n-attr="aria-label:video_heading" aria-label="Présentation en vidéo">
+          <img id="video-thumb" alt="" />
+          <span class="video-play" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5v14l11-7z" fill="currentColor" /></svg>
+          </span>
+        </button>
+      </div>
+      <p class="caption" data-i18n="video_caption">La version affichée correspond à la langue active du site.</p>
+    </section>
+
+    <!-- LANGUES -->
+    <section id="languages" class="section">
+      <p class="eyebrow" data-i18n="lang_eyebrow">Langues</p>
+      <h2 class="section-title" data-i18n="lang_heading">Langues parlées</h2>
+      <ul class="lang-list">
+        <li data-i18n="lang_ar">Arabe — langue maternelle</li>
+        <li data-i18n="lang_fr">Français — C2</li>
+        <li data-i18n="lang_en">Anglais — C1</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT (adresse en schema.org via RDFa) -->
+    <section id="contact" class="section">
+      <p class="eyebrow" data-i18n="contact_eyebrow">Contact</p>
+      <h2 class="section-title" data-i18n="contact_heading">Travaillons ensemble</h2>
+      <div class="contact-actions">
+        <a class="btn" id="contact-email" href="mailto:mouenisamira@gmail.com" data-i18n="contact_email_label">Écrire un e-mail</a>
+        <a class="btn btn-ghost" id="contact-linkedin" href="https://www.linkedin.com/in/mouenis-amira/" rel="me noopener" data-i18n="contact_linkedin_label">LinkedIn</a>
+        <a class="btn btn-ghost" id="contact-github" href="https://github.com/Mouenisam" rel="me noopener" data-i18n="contact_github_label">GitHub</a>
+      </div>
+      <p class="loc" about="#me" property="schema:address" typeof="schema:PostalAddress">
+        <span class="loc-label" data-i18n="loc_label">Localisation</span> :
+        <span property="schema:addressLocality">Pierrefitte-sur-Seine</span>,
+        <span property="schema:addressRegion">Île-de-France</span>,
+        <span property="schema:addressCountry">FR</span>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer_note">Portfolio multilingue — HTML5 valide, trois langues dont l'arabe (RTL).</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
